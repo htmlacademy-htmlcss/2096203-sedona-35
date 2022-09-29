@@ -99,8 +99,17 @@ body {
   text-decoration: none;
 }
 
-.main-images {
+.main-image {
   background-color: #82B3D3;
+  background-image: url(../images/photos/index-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.inner-title {
+  margin: 0;
+  padding: 0;
 }
 
 .welcome-image {

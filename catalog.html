@@ -9,33 +9,33 @@
     <div class="main-container">
       <header class="page-header">
         <nav class="navigation">
-          <a class="link-logo" href="">
+          <a class="link-logo" href="index.html">
             <img class="image-logo" src="images/icons/sedona_logo.svg" width="140" height="70" alt="Логотип Седоны.">
           </a>
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link" href="">Главная</a>
+              <a class="navigation-link" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="">О седоне</a>
+              <a class="navigation-link" href="#">О седоне</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="catalog.html">Гостиницы</a>
+              <a class="navigation-link">Гостиницы</a>
             </li>
           </ul>
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
-              <a class="navigation-link" href="">
+              <a class="navigation-link" href="#">
                 <span class="visually-hidden">Поиск</span>
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="">
+              <a class="navigation-link" href="#">
                 <span class="visually-hidden">Избранное</span>
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="">Хочу сюда</a>
+              <a class="navigation-link" href="#">Хочу сюда</a>
             </li>
           </ul>
         </nav>
@@ -233,9 +233,9 @@
               </a>
             </li>
             <li class="pagination-item">
-              <span class="pagination-dots">
+              <a class="pagination-link pagination-dots" href="#">
                 ...
-              </span>
+              </a>
             </li>
             <li class="pagination-item">
               <a class="pagination-link" href="#">
@@ -252,7 +252,10 @@
             Только полезная информация и никакого спама, честное бойскаутское!
           </p>
           <form class="destribution-form" action="https://echo.htmlacademy.ru" method="post">
-            <input class="" type="text" name="e-mail"  placeholder="Ваш e-mail">
+            <label class="destribution-form-label">
+              <span>E-mail</span>
+              <input class="" type="text" name="e-mail"  placeholder="Ваш e-mail">
+            </label>
             <button class="button" type="submit">
               Подписаться
             </button>
