@@ -380,9 +380,9 @@ body {
 .page-footer {
   display: flex;
   justify-content: space-between;
+  margin-top: auto;
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: auto;
 }
 
 .social-list {
