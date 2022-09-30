@@ -164,6 +164,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  list-style-type: none;
 }
 
 .advantages-item:not(.advantages-item-large) {
@@ -329,6 +330,8 @@ body {
   background-position: center;
   padding-left: 70px;
   padding-right: 70px;
+  padding-top: 35px;
+  padding-bottom: 70px;
 }
 
 .inner-title {
@@ -337,6 +340,7 @@ body {
   line-height: 78px;
   margin: 0;
   padding: 0;
+  margin-bottom: 8px;
 }
 
 .current-link {
@@ -345,6 +349,21 @@ body {
 
 .breadcrumbs-list {
   display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs-item {
+  margin-right: 28px;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-filter-title {
@@ -357,6 +376,8 @@ body {
   display: flex;
   padding-left: 70px;
   padding-right: 70px;
+  padding-top: 56px;
+  padding-bottom: 50px;
 }
 
 .hotel-searching-title {
@@ -364,6 +385,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
   margin-right: auto;
 }
 
@@ -377,6 +400,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .searching-results-item {
@@ -407,6 +431,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .catalog-filter {
@@ -425,10 +450,38 @@ body {
   padding: 0;
   padding-left: 70px;
   padding-right: 70px;
+  list-style-type: none;
+  padding-bottom: 80px;
 }
 
 .pagination-item {
   margin-right: 8px;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 12px 23px;
+  font-weight: 700;
+  line-height: 36px;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.first-pagination-link {
+  background-color: #F2F2F2;
+}
+
+.pagination-dots {
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .page-footer {
@@ -443,6 +496,7 @@ body {
 
 .social-list {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style-type: none;
