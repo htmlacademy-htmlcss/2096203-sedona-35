@@ -113,8 +113,7 @@ body {
   text-decoration: none;
 }
 
-.navigation-link-search {
-  background-image: url("../images/icons/search.svg");
+.navigation-link-icon {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
@@ -122,13 +121,12 @@ body {
   background-size: 100%;
 }
 
+.navigation-link-search {
+  background-image: url("../images/icons/search.svg");
+}
+
 .navigation-link-liked {
   background-image: url("../images/icons/liked.svg");
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
 }
 
 .navigation-link-want {
